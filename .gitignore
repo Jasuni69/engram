@@ -1,0 +1,11 @@
+core/
+memory/
+MEMORY.md
+TASKS.md
+*.log
+__pycache__/
+*.pyc
+projects/mcp-todoist/node_modules/
+projects/mcp-todoist/dist/
+*token*.txt
+*.env

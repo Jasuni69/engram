@@ -1,0 +1,22 @@
+{
+  "user": "{{name}}",
+  "company": "{{company}}",
+  "location": "{{location}}",
+  "last_updated": "{{date}}",
+  "preferences": {
+    "communication": "direct, no-fluff",
+    "code_style": "short functions, DRY",
+    "response_style": "snippets only, no preamble"
+  },
+  "base_of_operations": "{{base_dir}}",
+  "key_files": {
+    "soul": "{{base_dir}}/core/SOUL.md",
+    "heartbeat": "{{base_dir}}/core/HEARTBEAT.md",
+    "memory": "{{base_dir}}/MEMORY.md"
+  },
+  "goals": [
+    "Persistent memory across sessions",
+    "Autonomous task execution"
+  ],
+  "context": []
+}
