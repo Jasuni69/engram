@@ -27,7 +27,7 @@ Run `/bootstrap` once. You're live.
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/engram.git
+git clone https://github.com/Jasuni69/engram.git
 cd engram
 claude  # open Claude Code in this directory
 ```
