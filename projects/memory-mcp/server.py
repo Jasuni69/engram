@@ -22,7 +22,7 @@ except ImportError:
     print("ERROR: mcp package not installed. Run: pip install mcp", file=sys.stderr)
     sys.exit(1)
 
-BASE = Path(__file__).parent.parent.parent  # → E:\2026\Claude's Corner
+BASE = Path(__file__).parent.parent.parent  # → E:\2026\ClaudesCorner
 SOUL = BASE / "core" / "SOUL.md"
 HEARTBEAT = BASE / "core" / "HEARTBEAT.md"
 MEMORY = BASE / "MEMORY.md"
