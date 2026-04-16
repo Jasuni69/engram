@@ -14,8 +14,8 @@ Run `/bootstrap` once. You're live.
 - **MEMORY.md** — curated durable facts across all sessions
 - **memory-mcp** — MCP server exposing your memory to Claude Desktop (8 tools)
 - **mcp-todoist** — MCP server for Todoist task management (5 tools)
-- **Skills** — `/memory-flush`, `/git-push`, `/new-project`, `/token-cost`
-- **Scripts** — context-pack, memory-indexer, session-summarizer, idea-collider
+- **Skills** — `/memory-flush`, `/git-push`, `/new-project`, `/token-cost`, `/status`
+- **Scripts** — context-pack, memory-indexer, session-summarizer, idea-collider, dispatch
 
 ## Requirements
 
@@ -52,7 +52,7 @@ engram/
 │   ├── HEARTBEAT.md
 │   └── claude_memory.json
 ├── memory/             # daily logs, auto-written by Claude
-├── scripts/            # context-pack, memory-indexer, etc.
+├── scripts/            # context-pack, memory-indexer, dispatch, etc.
 ├── projects/
 │   ├── memory-mcp/     # Python MCP server
 │   └── mcp-todoist/    # TypeScript MCP server
